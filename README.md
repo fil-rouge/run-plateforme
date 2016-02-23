@@ -1,7 +1,7 @@
 # Run-platform
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+*Admin LTE* forlder contains the basic Admin LTE template, it's not working out of the box with ember.js
+*Admin LTE* is a free dashboard template!
 
 ## Prerequisites
 
