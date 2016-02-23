@@ -18,6 +18,16 @@ module.exports = function(environment) {
       // when it is created
     }
   };
+  // == from : https://adibsaad.com/blog/setting-up-ember-cli-with-a-rails-back-end-and-token-authentication-authorization
+  ENV['simple-auth'] = {
+  authorizer: 'simple-auth-authorizer:devise'
+  }
+
+  ENV['simple-auth-devise'] = {
+    tokenAttributeName: 'token',
+    identificationAttributeName: 'email'
+  }
+  //  ==  ==  ==  ==  ==  ==  ==  ==  ==
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
